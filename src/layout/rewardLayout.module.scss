@@ -1,0 +1,125 @@
+.alinclub__rewardLayout {
+  margin: 15px 0;
+}
+
+.alinclub__rewardSideMenu {
+  background: #fff;
+  border-radius: 8px;
+  border: 1px solid #dcdfe1;
+}
+
+.alinclub__rewardMain {
+  background: #fff;
+  border-radius: 8px;
+  border: 1px solid #dcdfe1;
+}
+
+.alinclub__rewardSideContainer {
+  border-bottom: 1px solid #dcdfe1;
+  padding: 10px 15px;
+}
+
+.alinclub__userSideReward {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+}
+.alinclub__userSidePoint {
+  display: flex;
+  align-items: center;
+  font-family: "Yekan-Bakh-Num";
+  color: #efbf3e;
+  font-weight: 600;
+  font-size: 22px;
+  margin-right: 6px;
+}
+
+.alinclub__userSideCoin {
+  width: 27px;
+}
+
+.alinclub__rewardMenuItems {
+  margin: 15px 0;
+
+  li {
+    margin-bottom: 10px;
+    display: flex;
+
+    &::before {
+      content: "";
+      width: 3px;
+      height: 30px;
+      // background: transparent;
+    }
+
+    &:hover {
+      &::before {
+        // background: #00a4bd;
+      }
+    }
+  }
+}
+
+.alinclub__rewardMenuItems_select{
+  &::before{   
+    content: "";
+    background: #00a4bd ;
+    width: 100%;
+  }
+
+}
+
+.alinclub__rewardMenuItem {
+  display: flex;
+  width: 100%;
+  padding: 0 15px;
+
+  span {
+    color: #00a4bd;
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    margin-left: 8px;
+  }
+
+  &:hover {
+    color: #00a4bd;
+  }
+}
+
+.alinclub__rewardMenuItem_select{
+  @extend .alinclub__rewardMenuItem;
+  color: #00a4bd ;
+}
+
+.alinclub__rewardTitleContainer {
+  border-bottom: 1px solid #dcdfe1;
+  padding: 13px 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.alinclub__rewardMainTitle {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+}
+
+.alinclub__rewardFilterItems {
+  display: flex;
+}
+
+.alinclub__rewardFilterItem {
+  background: #dcdfe1;
+  padding: 3px 17px;
+  border-radius: 30px; 
+  cursor: pointer; 
+
+  &:not(:last-child) {
+    margin-left: 10px;
+  }
+}
+
+.alinclub__rewordMainContent {
+    padding: 20px 15px;
+}

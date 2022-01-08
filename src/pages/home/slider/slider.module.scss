@@ -1,0 +1,128 @@
+// .alinclub__sliderItem {
+//   background-image: url(../../../public/assets/images/slide.svg);
+//   height: 422px;
+//   width: 100px;
+
+//   //   &::af+
+// }
+
+// .alinclub__sliderLastItem {
+//   background-image: url(../../../public/assets/images/path1.svg);
+//   background-repeat: no-repeat;
+//   height: 422px;
+//   width: 100px;
+
+//   &::before {
+//     content: " ";
+//     display: flex;
+//     width: 50px;
+//     height: 422px;
+//     // margin-top: 1px;
+//     border-bottom: 2px solid #000;
+//     border-top: 3px solid #000;
+//   }
+
+//   //   &::af+
+// }
+
+// .alinclub__sliderMainItem {
+//   display: flex;
+//   width: 200px;
+//   border-top: 3px solid #000;
+//   border-bottom: 2.95px solid #000;
+
+//   &::before {
+//     content: " ";
+//     width: 20px;
+//     margin-right: -10px;
+//     margin-bottom: -4px;
+//     border-bottom: 3px solid #000;
+//   }
+// }
+
+// .alinclub__sliderItem_container {
+//   display: flex;
+//   width: 300px;
+//   margin-top: 50px;
+// }
+
+// .alinclub__sliderFirstMainItem {
+//   display: flex;
+//   width: 200px;
+//   border-top: 3px solid #000;
+//   border-bottom: 2.95px solid #000;
+//   border-right: 3px solid #000;
+//   border-top-right-radius: 15px;
+//   border-bottom-right-radius: 15px;
+// }
+.alinclub__slider{
+  margin: 50px 0;
+  width: 100%;
+}
+.alinclub__sliderItem_container {
+  display: flex;
+  position: relative;
+  //   width: 300px;
+  height: 400px;
+  margin-top: 50px;
+  flex-direction: column;
+  background: #fff;
+  //   margin-right: 10px;
+}
+
+.alinclub__sliderItem_top {
+  display: flex;
+  border: 3px solid #000;
+  border-bottom: 0px;
+  flex: 1;
+  width: 300px;
+  border-right: 0;
+  border-top-left-radius: 15px;
+}
+
+.alinclub__sliderItem_bottom {
+  display: flex;
+  border: 3px solid #000;
+  border-top: 0px;
+  flex: 1;
+  width: 300px;
+  border-left: 0;
+  border-bottom-right-radius: 15px;
+  margin-right: -3.35%;
+  z-index: 1;
+}
+
+.alinclub__sliderItem_center {
+  background-image: url(../../../../public/assets/images/arrow4.svg);
+  position: absolute;
+  z-index: 1;
+  top: 40%;
+  left: -4.5%;
+  height: 200px;
+  width: 100px;
+  background-repeat: no-repeat;
+  //   transform: rotate(3deg);
+}
+
+.alinclub__sliderItem_top_first {
+  display: flex;
+  border: 3px solid #000;
+  border-bottom: 0px;
+  flex: 1;
+  width: 300px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.alinclub__sliderItem_bottom_first {
+  display: flex;
+  border: 3px solid #000;
+  border-top: 0px;
+  flex: 1;
+  width: 300px;
+  border-left: 0;
+  border-bottom-right-radius: 15px;
+
+  //   margin-right: -3%;
+  z-index: 1;
+}

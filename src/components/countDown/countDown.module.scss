@@ -1,0 +1,36 @@
+
+.alinclub__countDownContainer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 15px;
+}
+
+.alinclub__countDown {
+  font-family: "Yekan-Bakh-Num";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.alinclub__countDownTime {
+  width: 66px;
+  height: 61px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background: url("../../../public/assets/images/counter.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-bottom: 10px;
+  color: #ff9433;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.alinclub__countDownDate {
+  font-weight: bold;
+  color: #ec49e0;
+}
+

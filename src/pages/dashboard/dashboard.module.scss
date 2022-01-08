@@ -1,0 +1,133 @@
+.alinclub__dashboardPage {
+  padding: 15px 0;
+}
+
+.alinclub__dashboardMenuTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  height: 75px;
+}
+
+.alinclub__userReward {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+}
+
+.alinclub__userPoint {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  font-family: "Yekan-Bakh-Num";
+  color: #efbf3e;
+  font-weight: bold;
+  font-size: 23px;
+
+  img {
+    width: 30px;
+    margin-right: 5px;
+  }
+}
+
+.alinclub__dashboardMenu {
+  background: #fff;
+  border-radius: 8px;
+  border: 1px solid #dcdfe1;
+}
+
+.alinclub__dashboardMenuTitle {
+  border-bottom: 1px solid #dcdfe1;
+}
+
+.alinclub__dashboardIcon {
+  display: flex;
+  color: #00a4bd;
+  margin-left: 5px;
+}
+
+.alinclub__dashboardItem {
+  display: flex;
+  align-items: center;
+}
+
+.alinclub__dashboardMenuItems {
+  padding: 15px;
+  li {
+    &:not(:last-child) {
+      margin-bottom: 10px;
+    }
+  }
+}
+
+.alinclub__dashboardMenuItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #dcdfe1;
+  border-radius: 8px;
+  padding: 10px;
+
+  i {
+    display: flex;
+    color: #00a4bd;
+  }
+}
+
+
+
+.alinclub__lottaryCountDownTitle {
+  color: #00a4bd;
+  font-weight: 600;
+  font-size: 27px;
+}
+
+.alinclub__lottaryCountDownDesc {
+  font-weight: 500;
+  font-size: 20px;
+  max-width: 700px;
+}
+
+.alinclub__lottaryCountDown {
+  border: 1px solid #dcdfe1;
+  background: #fff;
+  border-radius: 8px;
+  margin: 20px 0;
+  padding: 50px 35px;
+}
+
+.alinclub__countDownContainer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.alinclub__countDown {
+  font-family: "Yekan-Bakh-Num";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.alinclub__countDownTime {
+  width: 66px;
+  height: 61px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background: url("../../../public/assets/images/counter.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-bottom: 10px;
+  color: #ff9433;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.alinclub__countDownDate {
+  font-weight: bold;
+  color: #ec49e0;
+}
+

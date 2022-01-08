@@ -1,0 +1,24 @@
+.alinclub__header {
+  background: #fff;
+  padding: 15px 0;
+  box-shadow: 0 1.5px 3px rgba(159, 151, 151, 0.16);
+}
+
+.alinclub__logoarea a img {
+  width: 128px;
+}
+
+.alinclub__acountBtn {
+  color: #fff;
+  background-color: #ed7203;
+  padding: 5px 15px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.alinclub__headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

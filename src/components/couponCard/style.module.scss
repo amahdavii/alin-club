@@ -1,0 +1,78 @@
+.alinclub__voucher {
+    display: flex;
+    margin: 10px;
+    height: 150px;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    font-family: "Yekan-Bakh-Num";
+  
+    &::before {
+      content: "";
+      width: 18px;
+      height: 18px;
+      background: #fff;
+      border-radius: 50%;
+      position: absolute;
+      top: -8px;
+      right: 58px;
+      border: 1px solid #dcdfe1;
+    }
+  
+    &::after {
+      content: "";
+      width: 18px;
+      height: 18px;
+      background: #fff;
+      border-radius: 50%;
+      position: absolute;
+      right: 58px;
+      bottom: -8px;
+      border: 1px solid #dcdfe1;
+    }
+}
+
+.alinclub__voucherPoint {
+    border: 1px solid #dcdfe1;
+    border-left: 1px dashed #dcdfe1;
+    border-radius: 8px;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+
+.alinclub__voucherDetail {
+    width: 100%;
+    padding: 12px 18px;
+    border: 1px solid #dcdfe1;
+    border-right: none;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+  
+.alinclub__voucherDetailTop {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.alinclub__progressBar {
+    width: 55px;
+    height: 55px;
+}
+
+.alinclub__voucerLogo {
+    width: 55px;
+}
+  
+.alinclub__voucherDetailDesc {
+    font-size: 13px;
+}
+  

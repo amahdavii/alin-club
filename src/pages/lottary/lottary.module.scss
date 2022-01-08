@@ -1,0 +1,37 @@
+.alinclub__lottaryCondition {
+    margin: 30px 0;
+}
+
+.alinclub__lottaryConditionTitle {
+    color: #494f55;
+    font-weight: 600;
+}
+
+.alinclub__rewardLottary {
+    padding-right: 16px;
+}
+
+
+.alinclub__lottaryRewardTitle {
+    color: #494f55;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.conditionItems {
+    padding: 0 10px;
+}
+
+.conditionItem {
+    font-size: 15px;
+    &::before {
+        content: '•';
+        color: #dcdfe1;
+        font-size: 20px;
+        padding-left: 10px;
+    }
+}
+
+.alinclubLottaryItem {
+    margin: 5px;
+}

@@ -1,0 +1,73 @@
+.alinclub__RewardSlider {
+    background: #fff;
+    border-radius: 8px;
+    border: 1px solid #dcdfe1;
+    position: relative;
+    margin: 20px 0;
+    // padding: 0 50px;
+}
+
+.alinclub__RewardSliderContainer {
+    padding: 50px;
+}
+
+.alinclub__RewardSliderTitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background: #fff;
+    border-bottom: 1px solid #dcdfe1;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    height: 75px;
+}  
+
+
+.alinclub__RewardArrows {
+    display: flex;
+    align-items: center;
+    i {
+      display: inline-flex;
+      margin-right: 20px;
+      color:#004f9e
+    }
+}
+
+
+.alinclub__NeWCardContainer{
+    flex-direction: column;
+    border-radius: 10px;
+    color: #494f55;
+    background: #fff;
+    border: 1px solid #dcdfe1;
+    align-items: center;
+    overflow: hidden;
+}
+.alinclub__NeWCardImage{
+    max-width: 100%;
+}
+.alinclub__NeWCardTextConatiner{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px 15px;
+
+    span{
+        font-size: 17px;
+        margin-bottom: 5px;
+        font-weight: 500;
+    }
+
+    p{
+        font-size: 15px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        white-space: normal;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+    }
+
+}

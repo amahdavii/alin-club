@@ -1,0 +1,33 @@
+.alinclub__RewardSlider {
+    background: #fff;
+    border-radius: 8px;
+    border: 1px solid #dcdfe1;
+    position: relative;
+}
+
+.alinclub__RewardSliderContainer {
+    padding: 15px;
+}
+
+.alinclub__RewardSliderTitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: #fff;
+    border-bottom: 1px solid #dcdfe1;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    height: 75px;
+}  
+
+
+.alinclub__RewardArrows {
+    display: flex;
+    align-items: center;
+    i {
+        display: inline-flex;
+        margin-right: 20px;
+        color:#004f9e
+    }
+}

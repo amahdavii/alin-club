@@ -1,0 +1,84 @@
+.alinclub__rewardHistoryTable {
+  font-family: "Yekan-Bakh-Num";
+  padding: 0 25px;
+}
+
+.alinclub__rewardHistoryTitle {
+  border-bottom: 1px solid #dcdfe1;
+  th {
+    padding: 10px 15px;
+  }
+}
+
+.alinclub__rewardHistoryDetail {
+  td {
+    padding: 15px;
+  }
+
+  tr {
+    &:nth-child(2n) {
+      background-color: #f5f8fa;
+    }
+  }
+}
+
+.alinclub__receivedRewardPoint {
+  color: #1dac3a;
+  display: flex;
+  align-items: center;
+}
+
+.alinclub__spentRewardPoint {
+  color: #ac1a1a;
+  display: flex;
+  align-items: center;
+}
+
+.receivedRewardIcon {
+  display: inline-flex;
+}
+
+.spentRewardIcon {
+  display: inline-flex;
+}
+
+.alinclub__rewardActivities {
+  display: flex;
+  flex-direction: column;
+}
+
+.alinclub__discountCode {
+  font-family: "Yekan-Bakh";
+  color: #00a4bd;
+  display: flex;
+  align-items: center;
+  span {
+    display: inline-flex;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+
+  &::after {
+    content: "";
+    width: 1px;
+    height: 20px;
+    margin-right: 5px;
+    background-color: #dcdfe1;
+  }
+}
+
+.alinclub__discountArea {
+  display: flex;
+  margin-top: 5px;
+}
+
+.vieworder {
+  color: #00a4bd;
+  font-size: 14px;
+}
+
+.alinclub__discountCredit {
+    margin-right: 10px;
+    color: #99acc2;
+    font-size: 14px;
+}

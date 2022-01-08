@@ -1,0 +1,143 @@
+.alinclub {
+  &__footer {
+    background: #fff;
+    padding-top: 25px;
+
+    &ColumnTitle,
+    &NewsTitle {
+      display: inline-block;
+      font-weight: bold;
+      color: #494f55;
+    }
+
+    &ColumnTitle {
+      margin-bottom: 10px;
+    }
+
+    &NewsTitle {
+      margin-bottom: 20px;
+    }
+
+    &ColumnLink,
+    &ColumnSocial {
+      ul {
+        li {
+          font-family: "Yekan-Bakh-Num";
+
+          a {
+            color: #878c92;
+          }
+        }
+      }
+    }
+  }
+
+  &__seoContainerTitle {
+    display: inline-block;
+    font-weight: bold;
+    color: #494f55;
+    margin: 25px 0 10px 0;
+  }
+}
+
+.alinclub__footerColumnContainer {
+  padding: 40px 0;
+  border-bottom: 1px solid #dcdfe1;
+}
+
+.alinclub__footerItems {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 0;
+  border-bottom: 1px solid #dcdfe1;
+}
+
+.alinclub__footerItem {
+  font-family: "Yekan-Bakh-Num";
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+
+  span {
+    margin-bottom: 10px;
+  }
+
+  &:hover {
+    .alinclub__footerItemIcon {
+      background-color: #ed7203;
+      color: #fff;
+    }
+  }
+}
+
+.alinclub__footerItemIcon {
+  display: inline-block;
+  background-color: #f5f8fa;
+  width: 90px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  border-radius: 50%;
+}
+
+.alinclub__footerSocials {
+  margin-bottom: 30px;
+}
+
+.alinclub__footerSocialItems {
+  display: flex;
+  li {
+    margin-left: 15px;
+    a {
+      span {
+        display: flex;
+        font-size: 25px;
+        color: #878c92;
+        align-items: centerk;
+      }
+    }
+  }
+}
+
+.alinclub__footerNewsInput {
+  width: 70%;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid #dcdfe1;
+  outline: none;
+}
+
+.alinclub__footerNewsBtn {
+  background: #878c92 !important;
+  color: #fff;
+  padding: 5px 20px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.alinclub__footerBottomSection {
+  margin: 20px 0;
+}
+
+.trust_logo {
+  width: 150px;
+}
+
+.moreDetail {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+
+  span {
+    display: inline-flex;
+    margin-right: 5px;
+  }
+}
+
+.alinclub__footerCopyRight {
+  background: #f5f8fa;
+  text-align: center;
+  padding: 15px 0;
+}

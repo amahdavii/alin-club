@@ -1,0 +1,45 @@
+
+
+.alinclub__question__item {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 30px;
+    cursor: pointer;
+    margin-top: 30px;
+    border-radius: 5px;
+    color: #333333;
+    // padding: 10px 50px 10px 10px;
+    border: 1px solid #dcdfe1;
+    border-radius: 5px;
+    background: #fff;
+
+
+    
+    i{
+        display: flex;
+        color:#28d0a6;
+    }
+    span {
+        display: flex;
+        margin-right: 15px;
+    }
+}
+
+.reply_box{
+    justify-content: center;
+    align-items: center;
+    color: #333333;
+    font-size: 17px;
+    padding: 0 30px;
+    margin-top: 20px;
+}
+.row_div{
+    display: flex;   
+    align-items: center;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.inverse_icon{
+    transform: rotateX(180deg);
+}
